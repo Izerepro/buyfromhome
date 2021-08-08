@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/shop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shops"
+
+        />
+
+
+    <TextView
+        android:id="@+id/data_analyst"
+        android:layout_below="@id/shop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:hint="baguma retailers"
+        android:textStyle="bold"
+        android:layout_height="45dp"/>
+    <ImageButton
+        android:id="@+id/select1"
+        android:layout_below="@id/data_analyst"
+        android:layout_marginBottom="40dp"
+        android:layout_width="200dp"
+        android:src="@drawable/project2"
+        android:layout_centerHorizontal="true"
+        android:layout_height="100dp"/>
+    <TextView
+
+        android:id="@+id/manager"
+        android:layout_below="@id/select1"
+
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+       android:textStyle="bold"
+        android:hint="Twine mobile food"
+        android:layout_height="45dp"/>
+    
+
+
+    <ImageButton
+        android:id="@+id/select2"
+        android:layout_below="@id/manager"
+        android:layout_marginBottom="40dp"
+         android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:text="Select"
+       android:src="@drawable/project4"
+        android:layout_height="100dp"/>
+    <TextView
+
+        android:id="@+id/health_officer"
+        android:layout_below="@id/select2"
+         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+
+        android:layout_width="wrap_content"
+        android:inputType="text"
+
+        android:hint="ballo drinks mobile"
+        android:textStyle="bold"
+        android:layout_height="45dp"/>
+
+    <ImageButton
+        android:id="@+id/select3"
+        android:layout_below="@id/health_officer"
+        android:layout_marginBottom="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:src="@drawable/drinks"
+        android:text="Select"
+        android:layout_height="100dp"/>
+    <Button
+        android:id="@+id/home"
+        android:layout_below="@id/select3"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:text="Home"
+        android:layout_height="45dp"/>
+
+</RelativeLayout>
+</ScrollView>

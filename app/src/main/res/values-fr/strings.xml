@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">buy_from_home</string>
+    <string name="about">Cette application est conçue pour vous afin que vous puissiez vous connecter aux boutiques de votre choix et ce
+     vous permettra dacheter tout ce dont vous pourriez avoir besoin. Restez à labri du covid-19 et nous vous mettrons en contact avec ceux qui en ont besoin. Nous vous aidons également si vous êtes vendeur àidentify those that need your product</string>
+    <string name="shops">sélectionnez la boutique dans laquelle vous souhaitez acheter</string>
+    <string name="intro">VOUS SÉLECTIONNEZ LA TRANSACTION QUE VOUS SOUHAITEZ FAIRE </string>
+    <string name="baguma">nous sommes trouvés dans la ville de mbarara près du rond-point</string>
+    <string name="press">appuyez sur le bouton ci-dessous pour nous localiser</string>
+    <string name="selltxt">vous pouvez coordonner ici avec votre transporteur et lacheteur</string>
+    <string name="english">English</string>
+    <string name="swahili">Swahili</string>
+    <string name="french">French</string>
+</resources>

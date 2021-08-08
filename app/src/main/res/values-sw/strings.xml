@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">buy_from_home</string>
+    <string name="about">Programu tumizi hii imeundwa kwa ajili yako ili uweze kuungana na maduka unayochagua ann hii
+     itakuwezesha kununua kila kitu ambacho unaweza kuhitaji. Kaa salama kutoka kwa covid-19 na tutakuunganisha na yeyote anayehitaji. Tunakusaidia pia ikiwa wewe ni muuzaji kutambua wale wanaohitaji bidhaa yako</string>
+    <string name="shops">chagua duka ungependa kununua kutoka</string>
+    <string name="intro">UNachagua UCHUKUZI UNGEPENDA KUFANYA</string>
+    <string name="baguma">tunapatikana katika mji wa mbarara karibu na pande zote</string>
+    <string name="press">bonyeza kitufe hapa chini ili kutupata</string>
+    <string name="selltxt">unaweza kuratibu hapa na msafirishaji wako na mnunuzi</string>
+    <string name="english">English</string>
+    <string name="swahili">Swahili</string>
+    <string name="french">French</string>
+</resources>

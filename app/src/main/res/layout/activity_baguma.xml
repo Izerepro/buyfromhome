@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/project4"
+    android:layout_height="match_parent"
+    tools:context=".baguma">
+    <TextView
+        android:id="@+id/name_bag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Baguma retailers"
+        android:textColor="#E32416"/>
+   <TextView
+       android:id="@+id/location_bag"
+       android:layout_below="@+id/name_bag"
+       android:layout_centerHorizontal="true"
+       android:textStyle="bold"
+       android:textColor="#fff"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/baguma"
+       />
+    <TextView
+        android:id="@+id/press"
+        android:layout_below="@+id/location_bag"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:text="@string/press"/>
+    <Button
+        android:id="@+id/location"
+        android:layout_below="@id/press"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/buttonBackground"
+        android:inputType="text"
+        android:hint="LOCATE US"
+        android:layout_height="45dp"/>
+   <ImageButton
+       android:id="@+id/call"
+       android:layout_below="@+id/location"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_centerHorizontal="true"
+       android:src="@drawable/call"
+       />
+    <Button
+        android:id="@+id/baghome"
+        android:layout_below="@+id/call"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="home"/>
+
+
+
+</RelativeLayout>

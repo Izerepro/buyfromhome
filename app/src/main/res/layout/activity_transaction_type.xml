@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:paddingBottom="50dp"
+        android:layout_width="match_parent"
+        android:text="@string/intro"
+        android:textColor="#000"
+        android:layout_height="wrap_content"
+        android:id="@+id/intro"
+        />
+
+    <TextView
+        android:id="@+id/formal_jobs"
+        android:layout_below="@+id/intro"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:hint="Purchasing"
+        android:textSize="25dp"
+
+        android:layout_height="45dp"/>
+    <TextView
+
+        android:id="@+id/informal_jobs"
+        android:layout_below="@id/select1"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+
+        android:hint="Selling"
+        android:textSize="25dp"
+        android:layout_height="45dp"/>
+    <TextView
+        android:id="@+id/transporter"
+        android:layout_below="@id/select2"
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:inputType="text"
+        android:hint="Transporter"
+        android:textSize="25dp"
+        android:layout_height="45dp"/>
+    <Button
+        android:id="@+id/select3"
+        android:layout_below="@id/transporter"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:text="Select"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:layout_height="50dp"/>
+
+
+    <Button
+        android:id="@+id/select1"
+        android:layout_below="@id/formal_jobs"
+        android:layout_marginBottom="40dp"
+        android:layout_width="wrap_content"
+        android:text="Select"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/select2"
+        android:layout_below="@id/informal_jobs"
+        android:layout_marginBottom="20dp"
+
+        android:layout_width="wrap_content"
+
+        android:text="Select"
+
+        android:layout_height="45dp"/>
+    <Button
+        android:id="@+id/home"
+        android:layout_below="@id/select3"
+        android:layout_marginBottom="20dp"
+         android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+
+        android:text="Home"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:layout_height="45dp"/>
+
+</RelativeLayout>

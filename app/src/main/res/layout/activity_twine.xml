@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/project2"
+    android:layout_height="match_parent"
+    tools:context=".baguma">
+    <TextView
+        android:id="@+id/name_twin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Baguma retailers"
+        android:textColor="#E32416"/>
+    <TextView
+        android:id="@+id/location_twin"
+        android:layout_below="@+id/name_twin"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/baguma"
+        />
+    <TextView
+        android:id="@+id/presstwin"
+        android:layout_below="@+id/location_twin"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/press"/>
+    <Button
+        android:id="@+id/locationtw"
+        android:layout_below="@id/presstwin"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:inputType="text"
+        android:hint="LOCATE US"
+        android:layout_height="45dp"/>
+    <ImageButton
+        android:id="@+id/calltwin"
+        android:layout_below="@+id/locationtw"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/call"
+        />
+    <Button
+        android:id="@+id/twinhome"
+        android:layout_below="@+id/calltwin"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="home"/>
+
+
+
+</RelativeLayout>
